@@ -1,0 +1,32 @@
+body{
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    background-color:rgb(12, 12, 68);
+    position:relative;
+    color: white;
+  }
+  
+  .logo {
+    width: 70px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the spacing between the logo and the company name */
+  }
+
+  .bottom {  
+    display: flex;
+    position:fixed;  
+    align-items: center;
+    text-wrap: nowrap;
+    left: 0px;  
+    bottom: 0px;  
+    right: 0px;   
+    width: 100%;  
+    background-color: white;  
+    color: black;  
+    text-align: left right;  
+    
+    }  
